@@ -3,9 +3,9 @@ local dwLocalPlayer = dwEntities.LocalPlayer
 local dwRunService = game:GetService("RunService")
 
 local settings_tbl = {
-    ESP_Enabled = true,
+    ESP_Enabled = false,
     ESP_TeamCheck = false,
-    Chams = true,
+    Chams = false,
     Chams_Color = Color3.fromRGB(255, 241, 250),
     Chams_Transparency = 0.4,
     Chams_Glow_Color = Color3.fromRGB(255, 241, 250)
