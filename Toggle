@@ -6,7 +6,7 @@ local players = game:GetService("Players")
 		 local highlight = Instance.new("Highlight")
 		 highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
 		 highlight.FillColor = Color3.fromRGB(1, 1, 1)
-		 highlight.FillTransparency = 0.2
+		 highlight.FillTransparency = 1
 		 highlight.OutlineColor = Color3.fromRGB(0,255,127)
 		 highlight.FillTransparency = 1
 	 
